@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotlight News</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f6f9;
+            color: #333;
+            display: flex;
+            min-height: 100vh;
+        }
+
+        /* Fixed sidebar with scroll */
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 300px;
+            height: 100%;
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            overflow-y: auto; /* Enable vertical scrolling */
+        }
+
+        /* Sidebar content */
+        .sidebar h1 {
+            font-size: 2rem;
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        .sidebar p {
+            margin-bottom: 20px;
+            font-size: 1rem;
+            text-align: center;
+        }
+
+        /* Improved Logout button */
+        .sidebar .logout {
+            color: white;
+            background-color: #0077a8;
+            padding: 12px 25px;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: bold;
+            margin-bottom: 30px; /* Adds space after the logout button */
+        }
+
+        .sidebar .logout:hover {
+            background-color: #005f85;
+        }
+
+        /* DOCX Download Button in Sidebar */
+        .sidebar .download-docx {
+            display: none; /* Hidden by default until analysis is complete */
+            margin-bottom: 20px;
+        }
+
+        .sidebar .download-docx button {
+            background-color: #28a745;
+            color: white;
+            padding: 12px 25px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .sidebar .download-docx button:hover {
+            background-color: #218838;
+        }
+
+        /* Main content area */
+        .main-content {
+            margin-left: 320px; /* Create space for the fixed sidebar */
+            padding: 40px;
+            flex-grow: 1;
+        }
+
+        h2 {
+            color: #0077a8;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        /* Input fields */
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+
+        select {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+            margin-right: 10px;
+        }
+
+        button {
+            background-color: #0077a8;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #005f85;
+        }
+
+        .form-actions {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        #result {
+            margin-top: 20px;
+        }
+
+        a {
+            color: #0077a8;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Sidebar with Black Background and Scrollbar -->
+    <div class="sidebar">
+        <h1>SpotLight News</h1>
+        <p>Enhance your search and analysis experience with AI-powered insights.</p>
+        <a href="/logout" class="logout">Logout</a> <!-- Logout Button -->
+
+        <!-- DOCX Download Button under Logout -->
+        <div class="download-docx" id="docx-download">
+            <a id="downloadDocx" href="#" download="analysis_report.docx" class="btn btn-success">Download Analysis as DOCX</a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <h2>Search and Analyze</h2>
+        <form id="analyzeForm">
+            <div>
+                <label for="query">Search Query:</label>
+                <input type="text" id="query" name="query" placeholder="Enter your query here..." required>
+            </div>
+
+            <div>
+                <label for="question">Analysis Question (optional):</label>
+                <textarea id="question" name="question" placeholder="Optional question to refine the analysis"></textarea>
+            </div>
+
+            <div class="form-actions">
+                <div>
+                    <label for="modelChoice">GPT Model:</label>
+                    <select id="modelChoice" name="modelChoice">
+                        <option value="gpt-4o-mini">gpt-4o-mini</option>
+                        <option value="gpt-4o">gpt-4o</option>
+                    </select>
+                </div>
+
+                <button type="submit">Analyze</button>
+            </div>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <script>
+        document.getElementById('analyzeForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerHTML = 'Analyzing...';
+
+            try {
+                const response = await fetch('/analyze', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(Object.fromEntries(formData))
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const data = await response.json();
+
+                if (data.error) {
+                    resultDiv.innerHTML = `<p style="color: red;">Error: ${data.error}</p>`;
+                } else if (data.formattedAnswer) {
+                    resultDiv.innerHTML = data.formattedAnswer;
+
+                    // Set the DOCX download link
+                    const downloadDocxBtn = document.getElementById('downloadDocx');
+                    downloadDocxBtn.href = `data:application/vnd.openxmlformats-officedocument.wordprocessingml.document;base64,${data.docxBuffer}`;
+                    downloadDocxBtn.download = 'analysis_report.docx';
+                    document.getElementById('docx-download').style.display = 'block'; // Show the button
+                }
+            } catch (error) {
+                console.error('Error details:', error);
+                resultDiv.innerHTML = `<p style="color: red;">An error occurred during analysis: ${error.message}</p>`;
+            }
+        });
+    </script>
+</body>
+
+</html>

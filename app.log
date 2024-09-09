@@ -1,0 +1,535 @@
+2024-09-07T22:45:14.600Z info: Server running on port 3000
+2024-09-07T22:45:23.406Z info: Login attempt for username: shafi
+2024-09-07T22:45:23.406Z warn: Login failed: User not found for username: shafi
+2024-09-07T22:45:35.584Z info: Login attempt for username: shafi
+2024-09-07T22:45:35.585Z warn: Login failed: User not found for username: shafi
+2024-09-07T22:45:54.552Z info: Login attempt for username: admin
+2024-09-07T22:45:54.870Z info: Login successful for username: admin
+2024-09-07T22:48:22.284Z info: Server running on port 3000
+2024-09-07T22:48:35.182Z info: Login attempt for username: admin
+2024-09-07T22:48:35.506Z info: Login successful for username: admin
+2024-09-07T22:48:53.138Z info: Analysis request received for query: undefined
+2024-09-07T22:48:53.549Z error: Error during search: Request failed with status code 400
+2024-09-07T22:48:53.550Z error: Error during analysis: Failed to perform search
+2024-09-07T22:48:58.942Z info: Analysis request received for query: undefined
+2024-09-07T22:48:59.136Z error: Error during search: Request failed with status code 400
+2024-09-07T22:48:59.136Z error: Error during analysis: Failed to perform search
+2024-09-07T22:50:29.056Z info: Server running on port 3000
+2024-09-07T22:50:39.302Z info: Login attempt for username: admin
+2024-09-07T22:50:39.620Z warn: Login failed: Incorrect password for username: admin
+2024-09-07T22:50:51.747Z info: Login attempt for username: admin
+2024-09-07T22:50:52.067Z info: Login successful for username: admin
+2024-09-07T22:52:22.206Z info: Server running on port 3000
+2024-09-07T22:52:35.284Z info: Login attempt for username: admin
+2024-09-07T22:52:35.619Z info: Login successful for username: admin
+2024-09-07T22:53:53.705Z info: Server running on port 3000
+2024-09-07T22:54:04.133Z info: Login attempt for username: admin
+2024-09-07T22:54:04.458Z info: Login successful for username: admin
+2024-09-07T22:54:08.378Z info: Analysis request received for query: undefined
+2024-09-07T22:54:08.753Z error: Error during search: Request failed with status code 400
+2024-09-07T22:54:08.755Z error: Error during analysis: Failed to perform search
+2024-09-07T22:55:26.333Z info: Server running on port 3000
+2024-09-07T22:55:40.016Z info: Login attempt for username: admin
+2024-09-07T22:55:40.337Z info: Login successful for username: admin
+2024-09-07T22:57:44.871Z info: Server running on port 3000
+2024-09-07T22:57:55.873Z info: Login attempt for username: admin
+2024-09-07T22:57:56.198Z info: Login successful for username: admin
+2024-09-07T22:57:59.329Z info: Analysis request received for query: undefined
+2024-09-07T22:57:59.660Z error: Error during search: Request failed with status code 400
+2024-09-07T22:57:59.661Z error: Error during analysis: Failed to perform search
+2024-09-07T22:59:29.919Z info: Analysis request received for query: undefined
+2024-09-07T22:59:30.192Z error: Error during search: Request failed with status code 400
+2024-09-07T22:59:30.193Z error: Error during analysis: Failed to perform search
+2024-09-07T22:59:34.995Z info: User admin logged out successfully
+2024-09-07T22:59:42.274Z info: Login attempt for username: admin
+2024-09-07T22:59:42.592Z info: Login successful for username: admin
+2024-09-07T22:59:45.615Z info: Analysis request received for query: undefined
+2024-09-07T22:59:45.806Z error: Error during search: Request failed with status code 400
+2024-09-07T22:59:45.807Z error: Error during analysis: Failed to perform search
+2024-09-07T23:03:06.985Z info: Server running on port 3000
+2024-09-07T23:03:15.579Z info: User Unknown logged out successfully
+2024-09-07T23:03:24.415Z info: Login attempt for username: admin
+2024-09-07T23:03:24.737Z info: Login successful for username: admin
+2024-09-07T23:03:27.908Z info: Analysis request received. req.body: {"query":"What are the potential economic impacts of air Canada strike in Canada","question":"","modelChoice":"gpt-4o-mini"}
+2024-09-07T23:03:27.909Z info: Performing search for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-07T23:03:29.359Z info: Extracting relevant information from search results
+2024-09-07T23:03:29.360Z info: Querying GPT with model: gpt-4o-mini
+2024-09-07T23:03:29.361Z error: Error during analysis: Configuration is not a constructor
+2024-09-07T23:03:29.362Z error: Stack trace: TypeError: Configuration is not a constructor
+    at askGPT (C:\Users\shafiullah.qureshi\OneDrive - Government of Alberta\Documents\unit_work\hansard_canada\node_js\app.js:178:25)
+    at C:\Users\shafiullah.qureshi\OneDrive - Government of Alberta\Documents\unit_work\hansard_canada\node_js\app.js:122:26
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08T00:39:02.729Z info: Server running on port 3000
+2024-09-08T00:39:19.948Z info: Login attempt for username: admin
+2024-09-08T00:39:20.267Z info: Login successful for username: admin
+2024-09-08T00:39:23.906Z info: Analysis request received. req.body: {"query":"What are the potential economic impacts of air Canada strike in Canada","question":"","modelChoice":"gpt-4o-mini"}
+2024-09-08T00:39:23.907Z info: Performing search for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T00:39:23.908Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T00:39:25.761Z info: SerpAPI request successful
+2024-09-08T00:39:25.762Z info: Extracting relevant information from search results
+2024-09-08T00:39:25.763Z info: Querying GPT with model: gpt-4o-mini
+2024-09-08T00:39:25.764Z error: Error during analysis: Configuration is not a constructor
+2024-09-08T00:39:25.765Z error: Stack trace: TypeError: Configuration is not a constructor
+    at askGPT (C:\Users\shafiullah.qureshi\OneDrive - Government of Alberta\Documents\unit_work\hansard_canada\node_js\app.js:180:25)
+    at C:\Users\shafiullah.qureshi\OneDrive - Government of Alberta\Documents\unit_work\hansard_canada\node_js\app.js:122:26
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08T00:42:41.769Z info: Server running on port 3000
+2024-09-08T00:43:02.872Z info: User Unknown logged out successfully
+2024-09-08T00:43:11.915Z info: Login attempt for username: admin
+2024-09-08T00:43:12.234Z info: Login successful for username: admin
+2024-09-08T00:43:14.671Z info: Analysis request received. req.body: {"query":"What are the potential economic impacts of air Canada strike in Canada","question":"","modelChoice":"gpt-4o-mini"}
+2024-09-08T00:43:14.673Z info: Performing search for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T00:43:14.674Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T00:43:14.933Z info: SerpAPI request successful
+2024-09-08T00:43:14.935Z info: Extracting relevant information from search results
+2024-09-08T00:43:14.936Z info: Querying GPT with model: gpt-4o-mini
+2024-09-08T00:43:14.938Z error: Error during analysis: Configuration is not a constructor
+2024-09-08T00:43:14.939Z error: Stack trace: TypeError: Configuration is not a constructor
+    at askGPT (C:\Users\shafiullah.qureshi\OneDrive - Government of Alberta\Documents\unit_work\hansard_canada\node_js\app.js:184:25)
+    at C:\Users\shafiullah.qureshi\OneDrive - Government of Alberta\Documents\unit_work\hansard_canada\node_js\app.js:127:26
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-09-08T00:45:50.355Z info: Server running on port 3000
+2024-09-08T00:46:01.278Z info: Login attempt for username: admin
+2024-09-08T00:46:01.600Z info: Login successful for username: admin
+2024-09-08T00:46:06.535Z info: Analysis request received. Query: What are the potential economic impacts of air Canada strike in Canada, Model: gpt-4o-mini
+2024-09-08T00:46:06.536Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T00:46:06.870Z info: SerpAPI request successful
+2024-09-08T00:46:06.872Z error: Error during analysis: Configuration is not a constructor
+2024-09-08T00:50:38.712Z info: Server running on port 3000
+2024-09-08T00:50:42.108Z info: User Unknown logged out successfully
+2024-09-08T00:50:50.360Z info: Login attempt for username: admin
+2024-09-08T00:50:50.685Z info: Login successful for username: admin
+2024-09-08T00:50:54.957Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T00:50:55.214Z info: SerpAPI request successful
+2024-09-08T00:50:55.217Z error: Error during analysis: Configuration is not a constructor
+2024-09-08T00:53:41.842Z info: Server running on port 3000
+2024-09-08T00:53:46.125Z info: User Unknown logged out successfully
+2024-09-08T00:53:55.594Z info: Login attempt for username: admin
+2024-09-08T00:53:55.992Z info: Login successful for username: admin
+2024-09-08T00:53:58.937Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T00:53:59.287Z info: SerpAPI request successful
+2024-09-08T00:53:59.290Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T00:54:04.666Z info: OpenAI request successful
+2024-09-08T00:54:04.675Z error: Error during analysis: dest.on is not a function
+2024-09-08T00:56:00.778Z info: Server running on port 3000
+2024-09-08T00:56:02.398Z info: User Unknown logged out successfully
+2024-09-08T00:56:10.995Z info: Login attempt for username: admin
+2024-09-08T00:56:11.397Z info: Login successful for username: admin
+2024-09-08T00:56:14.517Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T00:56:14.828Z info: SerpAPI request successful
+2024-09-08T00:56:14.833Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T00:56:19.902Z info: OpenAI request successful
+2024-09-08T00:56:19.904Z error: Error during analysis: formatAnswerMarkdown is not defined
+2024-09-08T00:57:59.007Z info: Server running on port 3000
+2024-09-08T00:58:02.138Z info: User Unknown logged out successfully
+2024-09-08T00:58:10.662Z info: Login attempt for username: admin
+2024-09-08T00:58:11.063Z info: Login successful for username: admin
+2024-09-08T00:58:13.499Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T00:58:13.760Z info: SerpAPI request successful
+2024-09-08T00:58:13.764Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T00:58:18.724Z info: OpenAI request successful
+2024-09-08T00:58:18.825Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T01:56:55.648Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T01:56:57.188Z info: SerpAPI request successful
+2024-09-08T01:56:57.189Z info: Sending request to OpenAI with model: gpt-4o
+2024-09-08T01:57:02.865Z info: OpenAI request successful
+2024-09-08T01:57:02.884Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T02:00:53.135Z info: Server running on port 3000
+2024-09-08T02:01:00.939Z info: User Unknown logged out successfully
+2024-09-08T02:01:13.607Z info: Login attempt for username: admin
+2024-09-08T02:01:13.831Z info: Login successful for username: admin
+2024-09-08T02:01:18.131Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T02:01:18.346Z info: SerpAPI request successful
+2024-09-08T02:01:18.348Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T02:01:24.851Z info: OpenAI request successful
+2024-09-08T02:01:24.888Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T02:07:22.007Z info: Server running on port 3000
+2024-09-08T02:07:25.256Z info: User Unknown logged out successfully
+2024-09-08T02:07:34.772Z info: Login attempt for username: admin
+2024-09-08T02:07:34.998Z info: Login successful for username: admin
+2024-09-08T02:07:38.183Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T02:07:38.529Z info: SerpAPI request successful
+2024-09-08T02:07:38.531Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T02:07:45.436Z info: OpenAI request successful
+2024-09-08T02:07:45.484Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T02:08:13.344Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T02:08:13.524Z info: SerpAPI request successful
+2024-09-08T02:08:13.526Z info: Sending request to OpenAI with model: gpt-4o
+2024-09-08T02:08:18.792Z info: OpenAI request successful
+2024-09-08T02:08:18.819Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T02:10:51.308Z info: Server running on port 3000
+2024-09-08T02:10:55.030Z info: User Unknown logged out successfully
+2024-09-08T02:11:02.636Z info: Login attempt for username: admin
+2024-09-08T02:11:02.859Z info: Login successful for username: admin
+2024-09-08T02:11:05.987Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T02:11:06.202Z info: SerpAPI request successful
+2024-09-08T02:11:06.204Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T02:11:12.371Z info: OpenAI request successful
+2024-09-08T02:11:12.417Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T02:40:23.408Z info: Server running on port 3000
+2024-09-08T02:40:25.794Z info: User Unknown logged out successfully
+2024-09-08T02:40:33.222Z info: Login attempt for username: admin
+2024-09-08T02:40:33.450Z info: Login successful for username: admin
+2024-09-08T02:40:36.910Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T02:40:37.196Z info: SerpAPI request successful
+2024-09-08T02:40:37.198Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T02:40:42.563Z info: OpenAI request successful
+2024-09-08T02:40:42.607Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T02:43:57.888Z info: Server running on port 3000
+2024-09-08T02:44:06.314Z info: User Unknown logged out successfully
+2024-09-08T02:44:13.923Z info: Login attempt for username: admin
+2024-09-08T02:44:14.145Z info: Login successful for username: admin
+2024-09-08T02:44:17.221Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T02:44:17.429Z info: SerpAPI request successful
+2024-09-08T02:44:17.431Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T02:44:21.775Z info: OpenAI request successful
+2024-09-08T02:44:21.822Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T02:46:34.859Z info: Server running on port 3000
+2024-09-08T02:46:37.885Z info: User Unknown logged out successfully
+2024-09-08T02:46:46.914Z info: Login attempt for username: admin
+2024-09-08T02:46:47.138Z info: Login successful for username: admin
+2024-09-08T02:46:50.194Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T02:46:50.496Z info: SerpAPI request successful
+2024-09-08T02:46:50.498Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T02:46:55.105Z info: OpenAI request successful
+2024-09-08T02:46:55.151Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T02:49:33.524Z info: Server running on port 3000
+2024-09-08T02:49:36.346Z info: User Unknown logged out successfully
+2024-09-08T02:49:45.092Z info: Login attempt for username: admin
+2024-09-08T02:49:45.314Z info: Login successful for username: admin
+2024-09-08T02:49:59.099Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T02:49:59.299Z info: SerpAPI request successful
+2024-09-08T02:49:59.301Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T02:50:03.541Z info: OpenAI request successful
+2024-09-08T02:50:03.602Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T02:52:43.380Z info: Server running on port 3000
+2024-09-08T02:53:05.880Z info: Login attempt for username: admin
+2024-09-08T02:53:06.108Z info: Login successful for username: admin
+2024-09-08T02:53:10.486Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T02:53:10.765Z info: SerpAPI request successful
+2024-09-08T02:53:10.766Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T02:53:14.996Z info: OpenAI request successful
+2024-09-08T02:53:15.042Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T02:56:34.933Z info: Server running on port 3000
+2024-09-08T02:56:38.533Z info: User Unknown logged out successfully
+2024-09-08T02:56:47.854Z info: Login attempt for username: admin
+2024-09-08T02:56:48.080Z info: Login successful for username: admin
+2024-09-08T02:56:53.339Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T02:56:53.558Z info: SerpAPI request successful
+2024-09-08T02:56:53.560Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T02:56:58.772Z info: OpenAI request successful
+2024-09-08T02:56:58.818Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T02:58:40.827Z info: Server running on port 3000
+2024-09-08T02:58:54.974Z info: Login attempt for username: admin
+2024-09-08T02:58:55.196Z info: Login successful for username: admin
+2024-09-08T02:59:02.993Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T02:59:04.528Z info: SerpAPI request successful
+2024-09-08T02:59:04.529Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T02:59:08.924Z info: OpenAI request successful
+2024-09-08T02:59:08.950Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T03:01:05.440Z info: Server running on port 3000
+2024-09-08T03:01:18.571Z info: Login attempt for username: admin
+2024-09-08T03:01:18.793Z info: Login successful for username: admin
+2024-09-08T03:01:32.765Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T03:01:32.987Z info: SerpAPI request successful
+2024-09-08T03:01:32.990Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T03:01:38.133Z info: OpenAI request successful
+2024-09-08T03:01:38.181Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T03:02:44.739Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T03:02:44.859Z info: SerpAPI request successful
+2024-09-08T03:02:44.860Z info: Sending request to OpenAI with model: gpt-4o
+2024-09-08T03:02:56.463Z info: OpenAI request successful
+2024-09-08T03:02:56.495Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T03:03:07.955Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T03:03:08.094Z info: SerpAPI request successful
+2024-09-08T03:03:08.096Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T03:03:13.460Z info: OpenAI request successful
+2024-09-08T03:03:13.493Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T03:04:27.400Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T03:04:27.601Z info: SerpAPI request successful
+2024-09-08T03:04:27.604Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T03:04:32.616Z info: OpenAI request successful
+2024-09-08T03:04:32.640Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T03:07:08.447Z info: Server running on port 3000
+2024-09-08T03:07:10.716Z info: User Unknown logged out successfully
+2024-09-08T03:07:18.550Z info: Login attempt for username: admin
+2024-09-08T03:07:18.772Z info: Login successful for username: admin
+2024-09-08T03:07:31.610Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T03:07:31.830Z info: SerpAPI request successful
+2024-09-08T03:07:31.832Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T03:07:35.900Z info: OpenAI request successful
+2024-09-08T03:07:35.944Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T03:09:13.107Z info: Server running on port 3000
+2024-09-08T03:09:18.595Z info: User Unknown logged out successfully
+2024-09-08T03:09:26.108Z info: Login attempt for username: admin
+2024-09-08T03:09:26.336Z info: Login successful for username: admin
+2024-09-08T03:10:02.240Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T03:10:02.557Z info: SerpAPI request successful
+2024-09-08T03:10:02.559Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T03:10:12.179Z info: OpenAI request successful
+2024-09-08T03:10:12.237Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T03:10:37.821Z info: User admin logged out successfully
+2024-09-08T17:04:20.859Z info: Login attempt for username: admin
+2024-09-08T17:04:21.082Z info: Login successful for username: admin
+2024-09-08T17:17:03.501Z info: Server running on port 3000
+2024-09-08T17:17:32.458Z info: Login attempt for username: admin
+2024-09-08T17:17:32.685Z info: Login successful for username: admin
+2024-09-08T17:17:48.500Z info: User admin logged out successfully
+2024-09-08T17:18:48.276Z info: Server running on port 3000
+2024-09-08T17:19:24.917Z info: Login attempt for username: admin
+2024-09-08T17:19:25.095Z info: Login successful for username: admin
+2024-09-08T17:19:43.934Z info: User admin logged out successfully
+2024-09-08T17:20:12.100Z info: Login attempt for username: admin
+2024-09-08T17:20:12.324Z info: Login successful for username: admin
+2024-09-08T17:20:45.907Z info: User admin logged out successfully
+2024-09-08T17:23:06.206Z info: Server running on port 3000
+2024-09-08T17:23:25.736Z info: Login attempt for username: admin
+2024-09-08T17:23:25.958Z info: Login successful for username: admin
+2024-09-08T17:24:04.936Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T17:24:06.828Z info: SerpAPI request successful
+2024-09-08T17:24:06.830Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T17:24:11.607Z info: OpenAI request successful
+2024-09-08T17:24:11.653Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T17:27:45.278Z info: User admin logged out successfully
+2024-09-08T17:29:01.672Z info: Server running on port 3000
+2024-09-08T17:29:16.594Z info: Login attempt for username: admin
+2024-09-08T17:29:16.816Z info: Login successful for username: admin
+2024-09-08T17:29:30.575Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T17:29:30.889Z info: SerpAPI request successful
+2024-09-08T17:29:30.891Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T17:29:36.666Z info: OpenAI request successful
+2024-09-08T17:29:36.712Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T17:29:49.152Z info: User admin logged out successfully
+2024-09-08T17:31:50.506Z info: Server running on port 3000
+2024-09-08T17:32:05.625Z info: Login attempt for username: admin
+2024-09-08T17:32:05.853Z info: Login successful for username: admin
+2024-09-08T17:33:00.085Z info: User admin logged out successfully
+2024-09-08T17:34:33.664Z info: Server running on port 3000
+2024-09-08T17:34:45.237Z info: Login attempt for username: admin
+2024-09-08T17:34:45.466Z info: Login successful for username: admin
+2024-09-08T17:34:51.866Z info: User admin logged out successfully
+2024-09-08T17:36:58.232Z info: Server running on port 3000
+2024-09-08T17:37:12.197Z info: Login attempt for username: admin
+2024-09-08T17:37:12.419Z info: Login successful for username: admin
+2024-09-08T17:37:24.147Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T17:37:24.461Z info: SerpAPI request successful
+2024-09-08T17:37:24.463Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T17:37:29.247Z info: OpenAI request successful
+2024-09-08T17:37:29.293Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T17:38:30.664Z info: User admin logged out successfully
+2024-09-08T17:39:53.308Z info: Server running on port 3000
+2024-09-08T17:40:07.523Z info: Login attempt for username: admin
+2024-09-08T17:40:07.746Z info: Login successful for username: admin
+2024-09-08T17:40:13.989Z info: User admin logged out successfully
+2024-09-08T17:42:20.012Z info: Server running on port 3000
+2024-09-08T17:42:35.553Z info: Login attempt for username: admin
+2024-09-08T17:42:35.783Z info: Login successful for username: admin
+2024-09-08T17:42:42.455Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T17:42:42.758Z info: SerpAPI request successful
+2024-09-08T17:42:42.760Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T17:42:47.294Z info: OpenAI request successful
+2024-09-08T17:42:47.340Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T17:44:17.110Z info: User admin logged out successfully
+2024-09-08T17:45:19.864Z info: Server running on port 3000
+2024-09-08T17:45:31.951Z info: Login attempt for username: admin
+2024-09-08T17:45:32.178Z info: Login successful for username: admin
+2024-09-08T17:45:36.721Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T17:45:36.963Z info: SerpAPI request successful
+2024-09-08T17:45:36.965Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T17:45:41.057Z info: OpenAI request successful
+2024-09-08T17:45:41.104Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T17:55:47.695Z info: Server running on port 3000
+2024-09-08T17:55:51.438Z info: User Unknown logged out successfully
+2024-09-08T17:55:58.952Z info: Login attempt for username: admin
+2024-09-08T17:55:59.175Z info: Login successful for username: admin
+2024-09-08T17:56:05.647Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T17:56:05.967Z info: SerpAPI request successful
+2024-09-08T17:56:05.969Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T17:56:09.964Z info: OpenAI request successful
+2024-09-08T17:56:10.011Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T17:59:08.811Z info: Server running on port 3000
+2024-09-08T17:59:11.506Z info: User Unknown logged out successfully
+2024-09-08T17:59:19.018Z info: Login attempt for username: admin
+2024-09-08T17:59:19.240Z info: Login successful for username: admin
+2024-09-08T17:59:23.856Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T17:59:24.084Z info: SerpAPI request successful
+2024-09-08T17:59:24.087Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T17:59:28.963Z info: OpenAI request successful
+2024-09-08T17:59:29.010Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:00:39.561Z info: Server running on port 3000
+2024-09-08T18:00:41.683Z info: User Unknown logged out successfully
+2024-09-08T18:00:48.269Z info: Login attempt for username: admin
+2024-09-08T18:00:48.495Z info: Login successful for username: admin
+2024-09-08T18:00:52.233Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:00:52.442Z info: SerpAPI request successful
+2024-09-08T18:00:52.444Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T18:00:57.280Z info: OpenAI request successful
+2024-09-08T18:00:57.326Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:02:23.195Z info: Server running on port 3000
+2024-09-08T18:02:26.483Z info: User Unknown logged out successfully
+2024-09-08T18:02:33.958Z info: Login attempt for username: admin
+2024-09-08T18:02:34.180Z info: Login successful for username: admin
+2024-09-08T18:02:38.108Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:02:38.458Z info: SerpAPI request successful
+2024-09-08T18:02:38.460Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T18:02:42.520Z info: OpenAI request successful
+2024-09-08T18:02:42.564Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:03:06.608Z info: User admin logged out successfully
+2024-09-08T18:03:13.717Z info: Login attempt for username: admin
+2024-09-08T18:03:13.939Z info: Login successful for username: admin
+2024-09-08T18:03:17.783Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:03:17.904Z info: SerpAPI request successful
+2024-09-08T18:03:17.905Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T18:03:22.533Z info: OpenAI request successful
+2024-09-08T18:03:22.556Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:07:07.890Z info: Server running on port 3000
+2024-09-08T18:07:13.503Z info: User Unknown logged out successfully
+2024-09-08T18:07:20.855Z info: Login attempt for username: admin
+2024-09-08T18:07:21.081Z info: Login successful for username: admin
+2024-09-08T18:07:25.958Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:07:26.189Z info: SerpAPI request successful
+2024-09-08T18:07:26.191Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T18:07:32.188Z info: OpenAI request successful
+2024-09-08T18:07:32.234Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:08:28.321Z info: User admin logged out successfully
+2024-09-08T18:09:09.628Z info: Server running on port 3000
+2024-09-08T18:09:20.324Z info: Login attempt for username: admin
+2024-09-08T18:09:20.546Z info: Login successful for username: admin
+2024-09-08T18:09:24.205Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:09:24.524Z info: SerpAPI request successful
+2024-09-08T18:09:24.526Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T18:09:31.515Z info: OpenAI request successful
+2024-09-08T18:09:31.563Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:10:48.258Z info: Server running on port 3000
+2024-09-08T18:10:53.141Z info: User Unknown logged out successfully
+2024-09-08T18:11:00.688Z info: Login attempt for username: admin
+2024-09-08T18:11:00.913Z info: Login successful for username: admin
+2024-09-08T18:11:05.309Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:11:05.520Z info: SerpAPI request successful
+2024-09-08T18:11:05.522Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T18:11:10.075Z info: OpenAI request successful
+2024-09-08T18:11:10.120Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:16:57.872Z info: Server running on port 3000
+2024-09-08T18:16:59.887Z info: User Unknown logged out successfully
+2024-09-08T18:17:07.840Z info: Login attempt for username: admin
+2024-09-08T18:17:08.062Z info: Login successful for username: admin
+2024-09-08T18:17:11.618Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:17:11.952Z info: SerpAPI request successful
+2024-09-08T18:17:11.953Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T18:17:16.458Z info: OpenAI request successful
+2024-09-08T18:17:16.460Z error: Error during analysis: makeCitationsClickable is not defined
+2024-09-08T18:18:47.187Z info: Server running on port 3000
+2024-09-08T18:18:49.910Z info: User Unknown logged out successfully
+2024-09-08T18:18:57.367Z info: Login attempt for username: admin
+2024-09-08T18:18:57.589Z info: Login successful for username: admin
+2024-09-08T18:19:01.073Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:19:01.294Z info: SerpAPI request successful
+2024-09-08T18:19:01.296Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T18:19:05.534Z info: OpenAI request successful
+2024-09-08T18:19:05.580Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:19:25.378Z info: Server running on port 3000
+2024-09-08T18:19:27.891Z info: User Unknown logged out successfully
+2024-09-08T18:19:34.491Z info: Login attempt for username: admin
+2024-09-08T18:19:34.718Z info: Login successful for username: admin
+2024-09-08T18:19:38.643Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:19:38.865Z info: SerpAPI request successful
+2024-09-08T18:19:38.867Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T18:19:43.149Z info: OpenAI request successful
+2024-09-08T18:19:43.196Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:22:01.532Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:22:01.714Z info: SerpAPI request successful
+2024-09-08T18:22:01.715Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T18:22:13.435Z info: OpenAI request successful
+2024-09-08T18:22:13.450Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:22:28.540Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:22:28.812Z info: SerpAPI request successful
+2024-09-08T18:22:28.813Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T18:22:33.305Z info: OpenAI request successful
+2024-09-08T18:22:33.331Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:22:38.403Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:22:38.543Z info: SerpAPI request successful
+2024-09-08T18:22:38.545Z info: Sending request to OpenAI with model: gpt-4o
+2024-09-08T18:22:52.347Z info: OpenAI request successful
+2024-09-08T18:22:52.358Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:26:12.418Z info: Sending request to SerpAPI with query: How do the Conservatives view the Liberals child care program? 
+2024-09-08T18:26:13.977Z info: SerpAPI request successful
+2024-09-08T18:26:13.978Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T18:26:17.449Z info: OpenAI request successful
+2024-09-08T18:26:17.467Z info: Analysis completed successfully for query: How do the Conservatives view the Liberals child care program? 
+2024-09-08T18:27:02.680Z info: Sending request to SerpAPI with query: How do the Conservatives view the Liberals child care program? 
+2024-09-08T18:27:02.808Z info: SerpAPI request successful
+2024-09-08T18:27:02.809Z info: Sending request to OpenAI with model: gpt-4o
+2024-09-08T18:27:07.238Z info: OpenAI request successful
+2024-09-08T18:27:07.261Z info: Analysis completed successfully for query: How do the Conservatives view the Liberals child care program? 
+2024-09-08T18:33:18.744Z info: Server running on port 3000
+2024-09-08T18:33:25.361Z info: User Unknown logged out successfully
+2024-09-08T18:33:35.736Z info: Login attempt for username: admin
+2024-09-08T18:33:35.960Z info: Login successful for username: admin
+2024-09-08T18:33:40.257Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:33:41.351Z info: SerpAPI request successful
+2024-09-08T18:33:41.352Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T18:33:45.669Z info: OpenAI request successful
+2024-09-08T18:33:45.718Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:36:22.840Z info: Server running on port 3000
+2024-09-08T18:36:44.783Z info: User Unknown logged out successfully
+2024-09-08T18:36:51.945Z info: Login attempt for username: admin
+2024-09-08T18:36:52.168Z info: Login successful for username: admin
+2024-09-08T18:36:56.218Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:36:56.837Z info: SerpAPI request successful
+2024-09-08T18:36:56.839Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T18:37:01.358Z info: OpenAI request successful
+2024-09-08T18:37:01.404Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:38:47.637Z info: Server running on port 3000
+2024-09-08T18:38:51.992Z info: User Unknown logged out successfully
+2024-09-08T18:38:59.887Z info: Login attempt for username: admin
+2024-09-08T18:39:00.110Z info: Login successful for username: admin
+2024-09-08T18:39:03.863Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:39:04.172Z info: SerpAPI request successful
+2024-09-08T18:39:04.174Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T18:39:08.438Z info: OpenAI request successful
+2024-09-08T18:39:08.487Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:40:47.572Z info: Server running on port 3000
+2024-09-08T18:40:55.230Z info: User Unknown logged out successfully
+2024-09-08T18:41:04.343Z info: Login attempt for username: admin
+2024-09-08T18:41:04.570Z info: Login successful for username: admin
+2024-09-08T18:41:09.702Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:41:10.216Z info: SerpAPI request successful
+2024-09-08T18:41:10.218Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T18:41:14.209Z info: OpenAI request successful
+2024-09-08T18:41:14.254Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:43:01.472Z info: Server running on port 3000
+2024-09-08T18:43:06.622Z info: User Unknown logged out successfully
+2024-09-08T18:43:15.659Z info: Login attempt for username: admin
+2024-09-08T18:43:15.883Z info: Login successful for username: admin
+2024-09-08T18:43:20.508Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:43:20.725Z info: SerpAPI request successful
+2024-09-08T18:43:20.727Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T18:43:24.851Z info: OpenAI request successful
+2024-09-08T18:43:24.896Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:46:11.555Z info: Server running on port 3000
+2024-09-08T18:46:17.187Z info: User Unknown logged out successfully
+2024-09-08T18:46:24.708Z info: Login attempt for username: admin
+2024-09-08T18:46:24.933Z info: Login successful for username: admin
+2024-09-08T18:46:29.075Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:46:29.397Z info: SerpAPI request successful
+2024-09-08T18:46:29.399Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T18:46:34.665Z info: OpenAI request successful
+2024-09-08T18:46:34.710Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:46:52.822Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:46:52.957Z info: SerpAPI request successful
+2024-09-08T18:46:52.958Z info: Sending request to OpenAI with model: gpt-4o
+2024-09-08T18:46:57.841Z info: OpenAI request successful
+2024-09-08T18:46:57.870Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T18:47:15.241Z info: User admin logged out successfully
+2024-09-08T19:05:14.810Z info: Login attempt for username: admin
+2024-09-08T19:05:15.034Z info: Login successful for username: admin
+2024-09-08T19:06:58.188Z info: Server running on port 3000
+2024-09-08T19:07:02.686Z info: User Unknown logged out successfully
+2024-09-08T19:07:13.415Z info: Login attempt for username: admin
+2024-09-08T19:07:13.637Z info: Login successful for username: admin
+2024-09-08T20:19:03.732Z info: Sending request to SerpAPI with query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T20:19:05.523Z info: SerpAPI request successful
+2024-09-08T20:19:05.525Z info: Sending request to OpenAI with model: gpt-4o-mini
+2024-09-08T20:19:15.645Z info: OpenAI request successful
+2024-09-08T20:19:15.693Z info: Analysis completed successfully for query: What are the potential economic impacts of air Canada strike in Canada
+2024-09-08T21:27:34.360Z info: User admin logged out successfully
