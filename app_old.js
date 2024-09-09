@@ -10,24 +10,11 @@ const officegen = require('officegen');
 const winston = require('winston');
 const { PassThrough } = require('stream');
 
-// Load environment variables from .env or system environment
-require('dotenv').config();
-
 const app = express();
 const port = process.env.PORT || 3000;
 
-// Load and parse credentials.yml
-let credentials = yaml.load(fs.readFileSync('credentials.yml', 'utf8'));
-
-// Replace environment variables in credentials.yml
-credentials.users[0].password = process.env.USER_PASSWORD;
-credentials.api_keys.serpapi_key = process.env.SERPAPI_KEY;
-credentials.api_keys.openai_key = process.env.OPENAI_KEY;
-
-// Log environment variables for debugging
-console.log(`USER_PASSWORD: ${process.env.USER_PASSWORD}`);
-console.log(`SERPAPI_KEY: ${process.env.SERPAPI_KEY}`);
-console.log(`OPENAI_KEY: ${process.env.OPENAI_KEY}`);
+// Load credentials from YAML file
+const credentials = yaml.load(fs.readFileSync('credentials.yml', 'utf8'));
 
 // Middleware setup
 app.use(express.urlencoded({ extended: true }));
@@ -88,8 +75,6 @@ app.post('/login', async (req, res) => {
 
   try {
     const match = await bcrypt.compare(password, user.password);
-    logger.info(`Password match result: ${match}`);
-
     if (match) {
       req.session.user = { name: user.name, username: user.username };
       logger.info(`Login successful for username: ${username}`);
