@@ -1,0 +1,38 @@
+name: Build and Deploy Node.js app to Azure Web App
+
+on:
+  push:
+    branches:
+      - main  # Triggers the workflow on push to the 'main' branch
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the code from your GitHub repository
+      - name: 'Checkout GitHub Actions'
+        uses: actions/checkout@v3
+
+      # Set up Node.js environment
+      - name: 'Set up Node.js'
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16.x'  # Set the Node.js version (should match your local environment)
+
+      # Install dependencies
+      - name: 'Install dependencies'
+        run: npm install
+
+      # Run tests (optional step if you have tests)
+      # - name: 'Run tests'
+      #   run: npm test
+
+      # Deploy to Azure Web App
+      - name: 'Deploy to Azure Web App'
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: 'spotlight-news'  # Replace with your Azure Web App name
+          slot-name: 'production'
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+          package: '.'  # Path to the package directory (usually root)
