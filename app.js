@@ -25,9 +25,9 @@ credentials.api_keys.serpapi_key = process.env.SERPAPI_KEY;
 credentials.api_keys.openai_key = process.env.OPENAI_KEY;
 
 // Log environment variables for debugging
-console.log(`USER_PASSWORD: ${process.env.USER_PASSWORD}`);
-console.log(`SERPAPI_KEY: ${process.env.SERPAPI_KEY}`);
-console.log(`OPENAI_KEY: ${process.env.OPENAI_KEY}`);
+// console.log(`USER_PASSWORD: ${process.env.USER_PASSWORD}`);
+// console.log(`SERPAPI_KEY: ${process.env.SERPAPI_KEY}`);
+// console.log(`OPENAI_KEY: ${process.env.OPENAI_KEY}`);
 
 // Middleware setup
 app.use(express.urlencoded({ extended: true }));
